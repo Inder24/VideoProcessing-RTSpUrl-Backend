@@ -7,7 +7,7 @@ var transcoder = /** @class */ (function () {
     function transcoder(rtspLinkOrVideo, outputrtspLinkOrVideo) {
         this.sleep = (0, util_1.promisify)(setTimeout);
         this.frag_duration = "60000";
-        this.ffmpegLocation = "./ffmpeg/ffmpeg";
+        this.ffmpegLocation = "ffmpeg";
         this.constantRunning = false;
         this.rtspLinkOrVideo = rtspLinkOrVideo;
         this.outputrtspLinkOrVideo = outputrtspLinkOrVideo;

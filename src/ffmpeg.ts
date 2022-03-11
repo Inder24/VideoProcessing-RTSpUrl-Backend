@@ -15,7 +15,7 @@ moov: any = null;
 moof: any = null;
 wsConnDataRecord: Map<number, number>;
 headersNotPresent:boolean;
-ffmpegLocation:string = "./ffmpeg/ffmpeg";
+ffmpegLocation:string = "ffmpeg";
 constantRunning: boolean = false;
 
 constructor(rtspLinkOrVideo: string)

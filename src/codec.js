@@ -44,7 +44,7 @@ var codec = /** @class */ (function () {
     function codec(rtspLinkOrVideo) {
         this.sleep = (0, util_1.promisify)(setTimeout);
         this.frag_duration = "60000";
-        this.ffmpegLocation = "./ffmpeg/ffmpeg";
+        this.ffmpegLocation = "ffmpeg";
         this.constantRunning = false;
         this.rtspLinkOrVideo = rtspLinkOrVideo;
         this.codecInfo = "a";

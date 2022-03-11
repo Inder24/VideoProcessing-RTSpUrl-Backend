@@ -12,7 +12,7 @@ frag_duration: string = "60000";
 pid: number;
 isProcess:boolean;
 headersNotPresent:boolean;
-ffmpegLocation:string = "./ffmpeg/ffmpeg";
+ffmpegLocation:string = "ffmpeg";
 constantRunning: boolean = false;
 
 constructor(rtspLinkOrVideo: string,outputrtspLinkOrVideo: string)

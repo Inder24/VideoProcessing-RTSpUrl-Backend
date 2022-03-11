@@ -2,7 +2,7 @@
   "name": "video-processing",
   "version": "1.0.0",
   "description": "Backend node module to fragment a rtsp url stream and find the codec value of it",
-  "main": "index.js",
+  "main": "src/codec.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

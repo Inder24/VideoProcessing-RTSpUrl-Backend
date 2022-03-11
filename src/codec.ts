@@ -15,7 +15,7 @@ export class codec {
     mp4boxfile:any;
     wsConnList!: WebSocket;
     frag_duration: string = "60000";
-    ffmpegLocation: string = "./ffmpeg/ffmpeg"
+    ffmpegLocation: string = "ffmpeg"
     constantRunning:boolean = false;
 
     constructor(rtspLinkOrVideo:string)
