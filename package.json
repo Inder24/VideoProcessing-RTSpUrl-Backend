@@ -1,0 +1,16 @@
+{
+  "name": "video-processing",
+  "version": "1.0.0",
+  "description": "Backend node module to fragment a rtsp url stream and find the codec value of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Inderpreet Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "@types/ws": "^8.5.1",
+    "ws": "^8.4.2"
+  }
+}
